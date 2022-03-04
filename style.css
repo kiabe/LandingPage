@@ -1,0 +1,18 @@
+.image {
+    background-color: #cbe896;
+    display: flex;
+    justify-content: center;
+}
+
+h1,
+header p {
+    text-align: center;
+}
+
+header {
+    background-color: #fcdfa6;
+}
+
+body {
+    background-color: #a18276;
+}

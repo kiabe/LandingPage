@@ -13,6 +13,22 @@ header {
     background-color: #fcdfa6;
 }
 
+footer {
+    text-align: center;
+}
+
 body {
     background-color: #a18276;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a {
+    color: black;
+}
+
+li {
+    list-style: none;
 }

@@ -1,19 +1,4 @@
-.image {
-    background-color: #cbe896;
-}
-
-h1,
-header p {
-    text-align: center;
-}
-
-header {
-    background-color: #fcdfa6;
-}
-
-footer {
-    text-align: center;
-}
+/* Body Style */
 
 body {
     background-color: #a18276;
@@ -21,35 +6,50 @@ body {
     flex-direction: column;
 }
 
-.contentContainer {
-    flex: 1;
+/* Header Style */
+
+header {
+    background-color: #fcdfa6;
+    display: flex;
+    justify-content: space-around;
+}
+
+h1 {
+    text-align: center;
 }
 
 a:link {
+    /* Removes underlines from links */
     text-decoration: none;
-}
-
-a {
-    color: black;
-}
-
-li {
-    list-style: none;
-}
-
-header {
-    display: flex;
-    justify-content: space-around;
 }
 
 .links {
     display: flex;
 }
 
+a {
+    /* Change link text color from default blue to black */
+    color: black;
+}
+
 ul {
+    /* Places links on same line */
     display: flex;
+    /* Puts spacing between links */
     gap: 12px;
+    /* Aligns link text with h1 */
     align-items: center;
+}
+
+li {
+    /* Removes bullet points from list */
+    list-style: none;
+}
+
+/* Content Style */
+
+.contentContainer {
+    flex: 1;
 }
 
 .mainOne {
@@ -60,3 +60,20 @@ ul {
 .mainOne.flipped {
     flex-direction: row-reverse;
 }
+
+.mainOne .contentBox {
+    flex-shrink: 1;
+}
+
+.content {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+/* Footer Style */
+
+footer {
+    text-align: center;
+}
+

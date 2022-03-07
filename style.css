@@ -54,11 +54,8 @@ li {
 
 .mainOne {
     display: flex;
-    align-items: flex-start;
-}
-
-.mainOne.flipped {
     flex-direction: row-reverse;
+    align-items: flex-start;
 }
 
 .mainOne .contentBox {

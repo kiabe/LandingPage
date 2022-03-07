@@ -1,8 +1,11 @@
 /* Body Style */
 
 body {
-    background-color: #a18276;
+    /* Aesthetics choice */
+    background-color: #cbe896;
+    /* Makes body a flex container and its children flex items */
     display: flex;
+    /* Column to help stick footer at bottom of page */
     flex-direction: column;
 }
 
@@ -10,11 +13,14 @@ body {
 
 header {
     background-color: #fcdfa6;
+    /* Makes header a flex container, children will be flex items */
     display: flex;
+    /* Aesthetics choice */
     justify-content: space-around;
 }
 
 h1 {
+    /* Aesthetics choice */
     text-align: center;
 }
 
@@ -24,6 +30,7 @@ a:link {
 }
 
 .links {
+    /* Makes a flex container and its children flex items */
     display: flex;
 }
 
@@ -53,19 +60,19 @@ li {
 }
 
 .mainOne {
+    /* Makes mainOne a flex container. Its children will be flex items: image and contentBox */
     display: flex;
+    /* reverses start and end horizontal, from LR to RL, 1-2 --> 2-1 */
     flex-direction: row-reverse;
+    /* Sets items at top of box */
     align-items: flex-start;
 }
 
-.mainOne .contentBox {
-    flex-shrink: 1;
-}
+/* .contentBox {} */
 
 .content {
     font-size: 48px;
     font-weight: bolder;
-    color: #f9faf8;
 }
 
 /* Footer Style */

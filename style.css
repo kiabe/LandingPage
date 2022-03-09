@@ -61,17 +61,19 @@ li {
     display: flex;
     /* reverses start and end horizontal, from LR to RL, 1-2 --> 2-1 */
     flex-direction: row-reverse;
-    /* Sets items at center of box */
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    flex: 1 1 0;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    gap: 40px;
 }
 
-img {
-    /* max width and height keep img in proportion with variable screen size */
+.imageBox {
+    /* set a defined width for the image container */
+    width: 500px;
+}
+
+.scale {
+    /* creates responsive image within the constraint defined in the image container*/
     max-width: 100%;
-    max-height: 100%;
 }
 
 .contentBox {
@@ -80,12 +82,12 @@ img {
 }
 
 .content {
-    font-size: 36px;
+    font-size: 48px;
     font-weight: bolder;
 }
 
 .SubContent {
-    font-size: 18px;
+    font-size: 24px;
 }
 
 /* Footer Style */

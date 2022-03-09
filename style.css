@@ -22,6 +22,7 @@ header {
 h1 {
     /* Aesthetics choice */
     text-align: center;
+    font-size: 24px;
 }
 
 a:link {
@@ -55,24 +56,36 @@ li {
 
 /* Content Style */
 
-.contentContainer {
-    flex: 1;
-}
-
 .mainOne {
     /* Makes mainOne a flex container. Its children will be flex items: image and contentBox */
     display: flex;
     /* reverses start and end horizontal, from LR to RL, 1-2 --> 2-1 */
     flex-direction: row-reverse;
-    /* Sets items at top of box */
-    align-items: flex-start;
+    /* Sets items at center of box */
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex: 1 1 0;
 }
 
-/* .contentBox {} */
+img {
+    /* max width and height keep img in proportion with variable screen size */
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.contentBox {
+    /* flex shorthand: grow, shrink, basis */
+    flex: 0 1 0;
+}
 
 .content {
-    font-size: 48px;
+    font-size: 36px;
     font-weight: bolder;
+}
+
+.SubContent {
+    font-size: 18px;
 }
 
 /* Footer Style */

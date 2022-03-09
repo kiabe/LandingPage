@@ -61,6 +61,7 @@ li {
     display: flex;
     /* reverses start and end horizontal, from LR to RL, 1-2 --> 2-1 */
     flex-direction: row-reverse;
+    justify-content: center;
     padding-top: 80px;
     padding-bottom: 80px;
     gap: 40px;
@@ -77,8 +78,7 @@ li {
 }
 
 .contentBox {
-    /* flex shorthand: grow, shrink, basis */
-    flex: 0 1 0;
+    width: 500px;
 }
 
 .content {
@@ -88,6 +88,18 @@ li {
 
 .SubContent {
     font-size: 24px;
+}
+
+.animeButton {
+    background-color: #e85d75;
+    border: solid black;
+    border-radius: 50%;
+    font-size: 16px;
+    padding: 20px;
+}
+
+.animeButtonLink {
+    color: white;
 }
 
 /* Footer Style */

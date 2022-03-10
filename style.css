@@ -152,6 +152,28 @@ h2, p {
     font-style: italic;
 }
 
+/* mainFour */
+
+.mainFour {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #577399;
+    gap: 10px;
+}
+
+.upsell {
+    color: white;
+    font-size: larger;
+}
+
+.vizButton {
+    border: solid red;
+    font-size: larger;
+}
+
 .flipbox {
     background-color: transparent;
     width: 200px;
@@ -191,5 +213,6 @@ h2, p {
 
 footer {
     text-align: center;
+    font-size: large;
 }
 

@@ -106,6 +106,7 @@ li {
 
 .mainTwo {
     display: flex;
+    justify-content: center;
 }
 
 .cardbox {
@@ -116,8 +117,13 @@ li {
 
 .card {
     width: 300px;
-    height: 200px;
+    height: auto;
     border: solid blue;
+    padding: 10px;
+}
+
+h2, p {
+    text-align: center;
 }
 
 .flipbox {

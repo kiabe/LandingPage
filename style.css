@@ -7,6 +7,8 @@ body {
     display: flex;
     /* Column to help stick footer at bottom of page */
     flex-direction: column;
+    /* Removes slight border edge on left and right of content */
+    margin: 0px;
 }
 
 /* Header Style */
@@ -107,6 +109,7 @@ li {
 .mainTwo {
     display: flex;
     justify-content: center;
+    padding-bottom: 80px;
 }
 
 .cardbox {
@@ -124,6 +127,29 @@ li {
 
 h2, p {
     text-align: center;
+}
+
+/* mainThree */
+
+.mainThree {
+    /* makes flex container and children flex items */
+    display: flex;
+    /* puts quote in center */
+    justify-content: center;
+    /* padding top and bottom to separate content for aesthetics */
+    padding-top: 60px;
+    padding-bottom: 60px;
+    /* aesthetics choice */
+    background-color: #ffcab1;
+}
+
+.quote {
+    /* 800px makes quote fill a good chunk of space */
+    width: 800px;
+    /* make quote big */
+    font-size: 36px;
+    /* make quote stand out */
+    font-style: italic;
 }
 
 .flipbox {

@@ -74,6 +74,10 @@ li {
     width: 500px;
 }
 
+figcaption {
+    text-align: center;
+}
+
 .scale {
     /* creates responsive image within the constraint defined in the image container*/
     max-width: 100%;
